@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="tabs">
+    <button *ngFor="let tab of tabs" (click)="setTab(tab)" [ngClass]="{'selected': selectedTab === tab}">
+      {{ tab }}
+    </button>
+  </div>
+
+  <ng-container [ngSwitch]="selectedTab">
+    <app-about-me     *ngSwitchCase="'About Me'"></app-about-me>
+    <app-experience   *ngSwitchCase="'Experience'"></app-experience>
+    <app-education    *ngSwitchCase="'Education'"></app-education>
+    <app-misc         *ngSwitchCase="'???'"></app-misc>
+    <app-experience      *ngSwitchDefault></app-experience>
+  </ng-container>
+</div>

@@ -1,0 +1,22 @@
+.App {
+  background: var(--background);
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: flex-end;
+}
+
+.me {
+  bottom: 5px;
+  flex: 0 1 50%;
+}
+
+.me h1 {
+  color: var(--primary);
+  font-size: 170px;
+  line-height: 5px;
+}
