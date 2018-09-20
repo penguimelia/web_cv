@@ -19,7 +19,7 @@ export class ContentComponent {
 
   constructor(private eRef: ElementRef) {
     this.selectedTab = '';
-    this.tabs = ['About Me', 'Experience', 'Education', '???'];
+    this.tabs = ['About Me', 'Experience', 'Education', 'Find Me!'];
   }
 
   setTab(tab) {

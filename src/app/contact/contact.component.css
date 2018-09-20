@@ -1,0 +1,28 @@
+:host {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  margin-bottom: 20px;
+}
+
+img {
+  height: 50px;
+}
+
+.content {
+  border-top-right-radius: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.🍙 {
+  font-size: 25px;
+  padding: 10px 10px 5px 10px;
+  margin: 0;
+  white-space: pre-wrap;
+}

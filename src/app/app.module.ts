@@ -9,7 +9,7 @@ import { LandingComponent } from './landing/landing.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
-import { MiscComponent } from './misc/misc.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { MiscComponent } from './misc/misc.component';
     AboutMeComponent,
     ExperienceComponent,
     EducationComponent,
-    MiscComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,

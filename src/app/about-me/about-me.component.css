@@ -4,16 +4,35 @@
   flex-direction: column;
 }
 
-.content {
-  border-top-left-radius: 0px;
-}
-
-.picture {
-  height: 300px;
-  width: 150px;
+img {
+  height: 200px;
+  width: 200px;
   border: 1px solid black;
 }
 
 h1 {
-  float: right;
+  font-size: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 50%;
+}
+
+.content {
+  border-top-left-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.greeting {
+  position: relative;
+}
+
+.blurb {
+  flex: 1;
+}
+
+.info {
+  text-align: center;
 }

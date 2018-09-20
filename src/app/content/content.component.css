@@ -20,7 +20,7 @@ button {
   flex: 1;
   background: none;
   border: none;
-  color: var(--secondary);
+  color: var(--container);
   font-size: 16px;
 
   border-left: 5px solid transparent;
@@ -29,6 +29,6 @@ button {
 }
 
 .selected {
-  background: var(--tertiary);
-  color: var(--primary);
+  background: var(--container);
+  color: var(--orange);
 }
