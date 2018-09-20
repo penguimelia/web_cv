@@ -30,7 +30,7 @@ export class ExperienceComponent implements OnInit {
         "assets/images/ttp.png",
         "To The Point Pte Ltd",
         "Work Experience",
-        "Singapore, August 2015"
+        "Singapore, August 2015",
         "das"
       ),
       new Experience(
