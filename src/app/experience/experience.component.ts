@@ -8,7 +8,7 @@ import { Experience } from '../experience';
 })
 export class ExperienceComponent implements OnInit {
 
-  private places: Array<Experience>;
+  places: Array<Experience>;
 
   constructor() {
     this.places = [
