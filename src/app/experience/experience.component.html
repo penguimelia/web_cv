@@ -1,9 +1,13 @@
 <div class="content">
-  <div *ngFor="let place of places">
-    <img src="{{place.source}}"/>
-    <h3>{{place.company}}</h3>
-    <p>{{place.position}}</p>
-    <p>{{place.duration}}</p>
+  <div class="item" *ngFor="let place of places">
+    <div class="image">
+      <img src="{{place.source}}" alt="{{place.source}}"/>
+    </div>
+    <div class="details">
+      <h3>{{place.company}}</h3>
+      <p class="subtitle">{{place.position}}</p>
+      <p class="subtitle">{{place.duration}}</p>
+    </div>
     <p>{{place.writeup}}</p>
   </div>
 </div>

@@ -12,6 +12,10 @@ img {
   height: 50px;
 }
 
+p {
+  text-align: center;
+}
+
 .content {
   border-top-right-radius: 0px;
   text-align: center;

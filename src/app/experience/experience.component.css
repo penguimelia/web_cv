@@ -4,7 +4,22 @@
   flex-direction: column;
 }
 
+.item {
+  margin: 10px auto;
+  max-width: 600px;
+  padding-bottom: 10px;
+}
+
+.image, .details {
+  padding-right: 10px;
+  display: inline-block;
+  color: var(--seaweed);
+}
+
+.image {
+  text-align: center;
+}
+
 img {
-  width: 40%;
-  float: right;
+  width: 200px;
 }

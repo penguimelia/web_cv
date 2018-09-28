@@ -2,21 +2,74 @@
   background: var(--background);
   position: absolute;
   box-sizing: border-box;
-  padding: 20px;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   display: flex;
-  flex-flow: row;
-  align-items: flex-end;
+  flex-flow: column;
+  align-items: stretch;
+  padding: 5px;
 }
 
 .me {
   bottom: 5px;
-  flex: 0 1 50%;
+  flex: 0 1 auto;
+  text-align: center;
 }
 
 .me h1 {
-  color: var(--orange);
-  font-size: 170px;
+  color: var(--darker-green);
+  font-size: 40px;
   line-height: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  .me h1 {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .App {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+  }
+
+  .me {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .App {
+    padding: 20px 80px 20px 80px;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+  }
+
+  .me {
+    margin-right: 10px;
+  }
+
+  .me h1 {
+    font-size: 120px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .App {
+    padding: 20px 80px 20px 80px;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+  }
+
+  .me h1 {
+    font-size: 150px;
+  }
 }
