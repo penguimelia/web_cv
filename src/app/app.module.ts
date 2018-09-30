@@ -10,6 +10,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
+import { ImageComponent } from './image/image.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutMeComponent,
     ExperienceComponent,
     EducationComponent,
-    ContactComponent
+    ContactComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule,

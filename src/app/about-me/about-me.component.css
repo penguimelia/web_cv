@@ -4,33 +4,39 @@
   flex-direction: column;
 }
 
-img {
-  width: 100%;
-  border-radius: 5px;
+h2 {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+h3 {
+  display: inline-block;
+}
+
+a {
+  color: var(--darker-green);
+}
+
+span {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+ol {
   margin: 0;
 }
 
-h1 {
-  font-size: 50px;
-  position: absolute;
-  bottom: -25px;
-  left: 25px;
+.subtitle {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.definition {
+  margin-top: -10px;
 }
 
 .content {
   border-top-left-radius: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.greeting {
-  position: relative;
-  text-align: center;
-}
-
-.blurb {
-  flex: 1;
 }
 
 .info {
